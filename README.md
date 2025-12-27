@@ -87,7 +87,27 @@ Thus, the program was implemented and executed successfully, and the required ou
 ### Step 6:  
   Stop
 # Program:
+```
+#include <stdio.h>
+
+// Macro constant
+#define PI 3.14
+
+int main() {
+   
+    const int DAYS = 7;
+
+    printf("Macro constant (PI): %.2f\n", PI);
+    printf("Constant variable (DAYS): %d\n", DAYS);
+
+    return 0;
+}
+
+```
 # Output:
+
+<img width="816" height="602" alt="exp2" src="https://github.com/user-attachments/assets/6778bb1e-e3a2-453b-b6dc-473b2df2fde5" />
+
 # Result: 
 Thus, the program was implemented and executed successfully, and the required output was obtained.
 
