@@ -81,7 +81,7 @@ Thus, the program was implemented and executed successfully, and the required ou
 ### Step 6:  
   Stop
 # Program:
-```
+```C
 #include <stdio.h>
 
 // Macro constant
@@ -125,7 +125,7 @@ Thus, the program was implemented and executed successfully, and the required ou
 ### Step 5:    
    Stop
 # Program:
-```
+```C
 #include <stdio.h>
 
 int main() {
@@ -185,7 +185,7 @@ Thus, the program was implemented and executed successfully, and the required ou
 ### Step 8:   
   Stop
 # Program:
-```
+```C
 #include <stdio.h>
 
 int main() {
@@ -267,7 +267,7 @@ Thus, the program was implemented and executed successfully, and the required ou
 ### Step 8:   
   Stop
 # Program:
-```
+```C
 #include <stdio.h>
 #include <ctype.h>
 
