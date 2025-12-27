@@ -55,7 +55,8 @@ int main()
 ```
 
 # Output:
-<img width="1910" height="752" alt="Screenshot 2025-12-27 203627" src="https://github.com/user-attachments/assets/f405a332-f3a0-4253-bfdf-f6f0f9d914b4" />
+<img width="820" height="588" alt="exp1" src="https://github.com/user-attachments/assets/b013e579-a500-43f4-ab9e-5d60e4ef2a92" />
+
 
 # Result: 
 Thus, the program was implemented and executed successfully, and the required output was obtained.
@@ -131,8 +132,29 @@ Thus, the program was implemented and executed successfully, and the required ou
 ### Step 5:    
    Stop
 # Program:
+```
+#include <stdio.h>
+
+int main() {
+    int age = 20;              
+    float height = 5.7;           
+    double weight = 65.34567;     
+    char grade = 'A';      
+       
+    printf("Integer value (age): %d\n", age);
+    printf("Float value (height): %.2f\n", height);
+    printf("Double value (weight): %.5lf\n", weight);
+    printf("Character value (grade): %c\n", grade);
+
+    return 0;
+}
+
+```
 # Output:
+<img width="806" height="651" alt="exp3" src="https://github.com/user-attachments/assets/b7f805e6-be9b-44d2-a343-544c8cbdddbe" />
+
 # Result: 
+Thus, the program was implemented and executed successfully, and the required output was obtained.
 
 # 19AI304-Fundamentals-of-C-Programming-2025-Odd
 # IAPR-1- Module 1 - FoC
@@ -170,7 +192,44 @@ Thus, the program was implemented and executed successfully, and the required ou
 ### Step 8:   
   Stop
 # Program:
+```
+#include <stdio.h>
+
+int main() {
+    int a, b;
+
+    
+    printf("Enter two integers:\n");
+    scanf("%d %d", &a, &b);
+
+    
+    printf("\n--- Arithmetic Operations ---\n");
+    printf("Addition (a + b): %d\n", a + b);
+    printf("Subtraction (a - b): %d\n", a - b);
+    printf("Multiplication (a * b): %d\n", a * b);
+
+    if (b != 0) {
+        printf("Division (a / b): %d\n", a / b);
+        printf("Remainder (a %% b): %d\n", a % b);
+    } else {
+        printf("Division and remainder not possible (division by zero).\n");
+    }
+
+    printf("\n--- Bitwise Operations ---\n");
+    printf("Bitwise AND (a & b): %d\n", a & b);
+    printf("Bitwise OR (a | b): %d\n", a | b);
+    printf("Bitwise XOR (a ^ b): %d\n", a ^ b);
+    printf("Left Shift (a << 1): %d\n", a << 1);
+    printf("Right Shift (a >> 1): %d\n", a >> 1);
+    printf("Bitwise NOT (~a): %d\n", ~a);
+
+    return 0;
+}
+
+```
 # Output:
+<img width="794" height="642" alt="exp4" src="https://github.com/user-attachments/assets/c5aaee31-b7a0-4a6e-9e6c-1b3e16e2e0af" />
+
 # Result: 
 Thus, the program was implemented and executed successfully, and the required output was obtained.
 
@@ -215,7 +274,32 @@ Thus, the program was implemented and executed successfully, and the required ou
 ### Step 8:   
   Stop
 # Program:
+```
+#include <stdio.h>
+#include <ctype.h>
+
+int main() {
+    char ch;
+
+    printf("Enter a character: ");
+    scanf(" %c", &ch);   
+
+    
+    (isdigit(ch)) ? printf("'%c' is a Digit.\n", ch) :
+    (isalpha(ch)) ? 
+        ((ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u' ||
+          ch == 'A' || ch == 'E' || ch == 'I' || ch == 'O' || ch == 'U')
+          ? printf("'%c' is a Vowel.\n", ch)
+          : printf("'%c' is a Consonant.\n", ch))
+    : printf("'%c' is a Special Symbol.\n", ch);
+
+    return 0;
+}
+
+```
 # Output:
+<img width="814" height="664" alt="exp5" src="https://github.com/user-attachments/assets/6198f0ac-5af6-43d3-9ae0-7eb32761c990" />
+
 # Result: 
 Thus, the program was implemented and executed successfully, and the required output was obtained.
 
